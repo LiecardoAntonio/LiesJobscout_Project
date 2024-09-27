@@ -1,0 +1,153 @@
+/* body */
+.details {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+.company-info-row1 {
+  display: flex;
+  max-height: 50vh;
+  flex: 1;
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any overflow from the container */
+}
+.company-banner {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.company-info-row2 {
+  display: flex;
+  flex: 1;
+}
+.company-logo-details {
+  display: flex;
+  width: 7vw;
+  height: 10vh;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.company-info-row2-middle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#company-info-row2-middle-name {
+  color: white;
+  font-size: 3vmax;
+}
+.company-info-row2-middle-desc {
+  color: rgb(172, 172, 172);
+}
+.company-info-row2-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#apply-button {
+  background-color: rgb(0, 251, 242);
+  width: 20vw;
+  height: 5vh;
+  border-radius: 30px;
+}
+.apply-button:hover {
+  cursor: pointer;
+}
+.apply-button:active {
+  background-color: rgb(176, 248, 248);
+}
+#company-info-row2-right-appliants {
+  color: white;
+}
+.company-description {
+  display: flex;
+  flex-direction: column;
+}
+.company-description-row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.company-description-row1-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.mission {
+  color: white;
+  font-weight: 700; 
+  text-decoration: underline;
+  font-size: 2vmax;
+}
+.mission-content {
+  color: white;
+}
+.company-description-row1-vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.vision {
+  color: white;
+  font-weight: 700; 
+  text-decoration: underline;
+  font-size: 2vmax;
+}
+.vision-content {
+  color: white;
+}
+.company-description-row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.company-description-row2-benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.benefits {
+  color: white;
+  font-weight: 700; 
+  text-decoration: underline;
+  font-size: 2vmax;
+}
+.benefits-content {
+  color: white;
+}
+.company-description-row2-cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.cc {
+  color: white;
+  font-weight: 700; 
+  text-decoration: underline;
+  font-size: 2vmax;
+}
+.cc-content {
+  color: white;
+}

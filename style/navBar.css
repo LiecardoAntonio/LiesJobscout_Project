@@ -1,0 +1,16 @@
+.navbar-container {
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  width: 5vw;
+  z-index: 102;
+  top: 10vh;
+  /* bottom: 0; bottom gaperlu diset karna udah set height */
+  left: 0;
+}
+.navbar-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}

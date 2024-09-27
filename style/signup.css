@@ -1,0 +1,65 @@
+.signup-body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(/1_AOL_HCILAB/Asset/signup-banner-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login-force {
+  margin-top: auto;
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+}
+.form-container {
+  margin-top: 50vh;
+  margin: auto;
+  border: 1px solid white;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.row-container {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+}
+.label {
+  color: white;
+  margin-right: 10px;
+  flex: 0.4;
+}
+.input {
+  flex: 1;
+}
+.terms-condition-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.action-button {
+  display: flex;
+  justify-content: center;
+}
+.action-button button {
+  margin: 5px;
+}
+#back-button {
+  color: black;
+}
+.alert {
+  display: flex;
+  justify-content: center;
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 2vh;
+}

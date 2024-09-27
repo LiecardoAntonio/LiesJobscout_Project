@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(32, 32, 32);
+  padding-left: 5.5vw;
+  padding-top: 10.5vh;
+  padding-right: 5.5vw;
+  padding-bottom: 10.5vh;
+}
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+}

@@ -1,0 +1,127 @@
+.home-body {
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 78vh;
+  border: 1px solid white;
+}
+.title {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: dashed;
+  font-size: 2vmax;
+  flex: 1
+  border  1px solid blue;
+  padding: 10px;
+}
+.grid-content {
+  display: grid;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-template-columns: 1fr 1fr 1fr; 
+  align-items: center;
+  gap: 1vw;
+  flex: 1;
+  border: 1px solid white;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  height: 20vh;
+  background-color: rgb(78, 78, 78);
+}
+.card-container:hover {
+  cursor: pointer;
+}
+.top-card{
+  display: flex;
+  flex: 1;
+}
+.bottom-card {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: start;
+}
+.top-left{
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+}
+.top-right {
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-middle {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+.company-logo {
+  height: 7vh;
+  width: 3.5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 30px;
+  border: 1px solid rgb(103, 105, 62);
+}
+.company-name {
+  display: flex;
+  color: rgb(217, 78, 78);
+  font-weight: 700;
+  justify-content: start;
+  align-items: center;
+  flex: 2;
+}
+.company-desc {
+  color: gray;
+  flex: 1;
+  font-weight: 500;
+  
+}
+.company-rank {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  color: white;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  border-style: dotted;
+  border-radius: 100%;
+  flex: 2;
+}
+.company-applier {
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: auto;
+  flex: 1;
+}
+.company-rating-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.company-rating {
+  display: flex;
+  color: rgb(248, 248, 248);
+  margin-right: 8px;
+}
+.company-raters-count {
+  display: flex;
+  color: rgb(116, 116, 116);
+  margin-right: auto;
+}

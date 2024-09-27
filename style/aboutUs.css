@@ -1,0 +1,169 @@
+.aboutUs-content {
+  display: flex;
+  flex-direction: column;
+}
+.content-top {
+  display: flex;
+  flex-direction: column;
+}
+.top-row1 {
+  display: flex;
+  max-height: 50vh;
+  flex: 1;
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide any overflow from the container */
+}
+.our-banner {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.top-row2 {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-company-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px; 
+}
+.company-info-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 2px;
+}
+.company-row2 {
+  display: flex;
+}
+.top-row2-column1 {
+  display: flex;
+  max-width: 5vw;
+  height: 10vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.our-logo {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.top-row2-column2 {
+  color: white;
+}
+.our-company-type {
+  color: rgb(88, 88, 88);
+}
+.developer-row2 {
+  display: flex;
+}
+.top-row2-column3 {
+  display: flex;
+  height: 10vh;
+  border: 1px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.our-developer-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.our-developer-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 2px;
+}
+.our-developer {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.top-row2-column4 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+.developer-nim {
+  color: rgb(88, 88, 88);
+}
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.description-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 5vh;
+  border: 1px solid white;
+  padding: 2px;
+}
+.top-row3 {
+  margin-top: 20vh;
+  color: white;
+}
+.content-bottom {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.achievement-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 5vh;
+  border: 1px solid white;
+  padding: 2px;
+}
+.bottom-column1 {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 40vw;
+}
+.location-text {
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  margin-bottom: 5vh;
+  border: 1px solid white;
+  padding: 2px;
+}
+.bottom-column2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.bottom-column2-row1 {
+  display: flex;
+  flex-direction: column;
+}
+.our-company-location {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.location-pic-text {
+  color: rgb(142, 142, 142);
+  text-align: center;
+  font-size: 1vmax;
+}
+.our-company-view {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}

@@ -1,0 +1,71 @@
+.footer-container {
+  background-color: black;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  z-index: 104;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 50vw;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+}
+.instagram-logo {
+  height: 5vh;
+  width: 5vh;
+  object-fit: cover;
+  margin-right: 3px;
+}
+.ig-username a{
+  color: white;
+  text-decoration: none;
+}
+.email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email-logo {
+  height: 5vh;
+  width: 5vh;
+  object-fit: cover;
+  margin-right: 3px;
+}
+.email-to a {
+  color: white;
+  text-decoration: none;
+}
+.youtube {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtube-logo {
+  height: 5vh;
+  width: 5vh;
+  object-fit: cover;
+  margin-right: 3px;
+}
+.yt-link a {
+  color: white;
+  text-decoration: none;
+}
+.creator-info {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 20vw;
+  text-align: center;
+}
+

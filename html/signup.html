@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+
+  <link rel="stylesheet" href="/1_AOL_HCILAB/style/general.css">
+  <link rel="stylesheet" href="/1_AOL_HCILAB/style/signup.css">
+
+  <script defer src="/1_AOL_HCILAB/script/signup.js"></script>
+
+</head>
+<body class="signup-body">
+  <div id="login-force">Register A New Account</div>
+  <div class="form-container" id="form">
+    <div class="row-container">
+      <label class="label" for="first-name">First Name: </label>
+    <input class="input" type="text" name="first-name" id="first-name">
+    </div>
+    <div class="alert" id="first-name-alert"></div>
+
+    <div class="row-container">
+      <label class="label" for="last-name">Last Name: </label>
+    <input class="input" type="text" name="last-name" id="last-name">
+    </div>
+    <div class="alert" id="last-name-alert"></div>
+    
+    <div class="row-container">
+      <label class="label" for="email">Email: </label>
+    <input class="input" type="email" name="email" id="email">
+    </div>
+    <div class="alert" id="email-alert"></div>
+
+    <div class="row-container">
+      <label class="label" for="password">Password: </label>
+    <input class="input" type="password" name="password" id="password">
+    </div>
+    <div class="alert" id="password-alert"></div>
+
+    <div class="row-container">
+      <label class="label" for="password-confirmation">Password Confirmation : </label>
+    <input class="input" type="password" name="password-confirmation" id="password-confirmation">
+    </div>
+    <div class="alert" id="password-confirmation-alert"></div>
+
+    <div class="terms-condition-container">
+      <div>
+        <a href="">Agree To Our Terms & Condition</a>
+      </div>
+      <input type="checkbox" name="" id="checkbox">
+    </div>
+    <div class="alert" id="terms-condition-alert"></div>
+
+    <div class="action-button">
+      <button id="back-button" onclick="window.history.back()">Go back</button>
+      <button id="register-button">Register</button>
+    </div>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.header-container {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: 15vw;
+}
+.lie-logo {
+  height: 7vh;
+  width: 3.5vw;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.lie-title {
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+}
+.middle-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.middle-header div {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 7vw;
+  text-align: center;
+  margin: 10px;
+}
+.home-link, .companies-link, .aboutUs-link{
+  background-color: rgb(63, 63, 63);
+}
+
+.middle-header div:hover {
+  background-color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+.middle-header div:active {
+  background-color: rgb(199, 199, 199);
+}
+.middle-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vmax;
+}
+.right-header {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;  
+  justify-content: center;
+  text-align: center;
+}
+#account {
+  color: white;
+  text-decoration: none;
+}
+#email {
+  color: rgb(160, 160, 160);
+}
